@@ -5,3 +5,10 @@ class Human {
   }
 }
 
+class Apartment {
+  apartmentMembers = [];
+
+  addMember (person) {
+    this.apartmentMembers.push(person);
+  }
+}
